@@ -1,0 +1,12 @@
+function cutCake() {
+    const cakeCut = document.querySelector('.cake-cut');
+    cakeCut.style.display = 'block';
+    setTimeout(() => {
+        showConfetti();
+    }, 2000);
+}
+
+function showConfetti() {
+    const confetti = document.getElementById('confetti');
+    confetti.style.display = 'block';
+}
